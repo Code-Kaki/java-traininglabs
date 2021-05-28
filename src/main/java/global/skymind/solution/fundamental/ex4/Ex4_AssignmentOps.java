@@ -1,4 +1,4 @@
-package global.skymind.solution.fundamental;
+package global.skymind.solution.fundamental.ex4;
 
 public class Ex4_AssignmentOps {
 

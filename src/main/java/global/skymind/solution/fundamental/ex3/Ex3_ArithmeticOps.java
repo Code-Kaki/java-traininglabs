@@ -1,4 +1,4 @@
-package global.skymind.solution.fundamental;
+package global.skymind.solution.fundamental.ex3;
 
 public class Ex3_ArithmeticOps {
 

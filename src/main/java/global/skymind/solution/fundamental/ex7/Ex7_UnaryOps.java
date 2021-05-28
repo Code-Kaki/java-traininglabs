@@ -1,4 +1,4 @@
-package global.skymind.solution.fundamental;
+package global.skymind.solution.fundamental.ex7;
 
 public class Ex7_UnaryOps {
 

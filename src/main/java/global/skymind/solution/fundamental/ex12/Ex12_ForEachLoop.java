@@ -1,4 +1,4 @@
-package global.skymind.solution.fundamental;
+package global.skymind.solution.fundamental.ex12;
 
 import java.util.ArrayList;
 

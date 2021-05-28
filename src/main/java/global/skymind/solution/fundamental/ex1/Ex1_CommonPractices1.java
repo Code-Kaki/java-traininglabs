@@ -1,4 +1,4 @@
-package global.skymind.solution.fundamental;
+package global.skymind.solution.fundamental.ex1;
 
 /**
  * This is the way to write Javadoc - or in Python terms: docstring

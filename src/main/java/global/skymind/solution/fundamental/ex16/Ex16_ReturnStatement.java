@@ -1,4 +1,4 @@
-package global.skymind.solution.fundamental;
+package global.skymind.solution.fundamental.ex16;
 
 import java.util.Arrays;
 import java.util.Random;

@@ -1,4 +1,4 @@
-package global.skymind.solution.fundamental;
+package global.skymind.solution.fundamental.ex5;
 
 public class Ex5_RelationalOps {
 

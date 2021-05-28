@@ -1,4 +1,4 @@
-package global.skymind.solution.fundamental;
+package global.skymind.solution.fundamental.ex11;
 
 import java.util.ArrayList;
 import java.util.Scanner;
