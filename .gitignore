@@ -19,6 +19,9 @@
 *.tar.gz
 *.rar
 
+# PlantUML files
+*.plantuml
+
 hs_err_pid*
 
 # mac file
