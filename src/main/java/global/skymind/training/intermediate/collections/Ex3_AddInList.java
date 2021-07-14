@@ -18,29 +18,14 @@
 
 package global.skymind.training.intermediate.collections;
 import java.util.*;
+//Java program to add elements to a List
 
-public class Ex10_DeleteInList {
-    // Java program to remove elements
-    // in a List
+public class Ex3_AddInList {
     public static void main(String args[])
     {
-        List<String> al = new ArrayList<>();
+        /*enter your code here*/
+        //Creating list
 
-        al.add("Apple");
-        al.add("Orange");
-        al.add(1, "For");
-
-        System.out.println(
-                "Initial ArrayList " + al);
-
-        al.remove(1);
-
-        System.out.println(
-                "After the Index Removal " + al);
-
-        al.remove("Orange");
-
-        System.out.println(
-                "After the Object Removal " + al);
+        //Adding object in list
     }
 }

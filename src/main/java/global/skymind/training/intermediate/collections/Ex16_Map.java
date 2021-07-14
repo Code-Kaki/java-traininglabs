@@ -20,19 +20,10 @@ import java.util.*;
 
 public class Ex16_Map {
     public static void main(String args[]) {
-        Map<Integer, String> map = new HashMap<Integer, String>();
-        map.put(1, "Dr. Pranesh");
-        map.put(4, "Hidayah");
-        map.put(2, "Zul");
-        map.put(3, "Yuen");
+        /*enter your code here*/
+        //Creating Map using HashMap and adding elements
 
-//Now use Map.Entry for Set and Iterator
-        Set<Map.Entry<Integer, String>> set = map.entrySet();
+        //Using Map.Entry for Set and Iterator
 
-        Iterator<Map.Entry<Integer, String>> itr = set.iterator();
-        while (itr.hasNext()) {
-            Map.Entry e = itr.next();//no need to typecast
-            System.out.println(e.getKey() + " " + e.getValue());
-        }
     }
 }

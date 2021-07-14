@@ -16,32 +16,21 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package global.skymind.training.intermediate.collections;
+package global.skymind.solution.intermediate.collections;
 import java.util.*;
+//Java program to add elements to a List
 
-public class Ex9_IterateInList {
-    // Java program to iterate the elements
-// in an ArrayList
+public class Ex3_AddInList {
     public static void main(String args[])
     {
-        List<String> al
-                = new ArrayList<>();
+        //Creating list
+        List<String> al = new ArrayList<>();
 
-        al.add("Apple");
-        al.add("Orange");
+        //Adding object in list
+        al.add("rambutan");
+        al.add("mangoesteen");
         al.add(1, "For");
 
-        // Using the Get method and the
-        // for loop
-        for (int i = 0; i < al.size(); i++) {
-
-            System.out.print(al.get(i) + " ");
-        }
-
-        System.out.println();
-
-        // Using the for each loop
-        for (String str : al)
-            System.out.print(str + " ");
+        System.out.println(al);
     }
 }

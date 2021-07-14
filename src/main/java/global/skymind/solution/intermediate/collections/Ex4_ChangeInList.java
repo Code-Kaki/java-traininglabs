@@ -18,20 +18,22 @@
 
 package global.skymind.solution.intermediate.collections;
 import java.util.*;
+//Java program to change elements in a List
 
-public class Ex15_TreeSet {
-    public static void main(String args[]){
-        //Creating Set using TreeSet
-        TreeSet<String> set=new TreeSet<String>();
-        set.add("KFC");
-        set.add("McDonald's");
-        set.add("Mary Brown");
-        set.add("Texas Chicken");
+public class Ex4_ChangeInList {
+    public static void main(String args[])
+    {
+        //Creating list
+        List<String> al = new ArrayList<>();
 
-        //Traversing elements
-        Iterator<String> itr = set.iterator();
-        while(itr.hasNext()){
-            System.out.println(itr.next());
-        }
+        //Adding object in list
+        al.add("rambutan");
+        al.add("mangoesteen");
+        al.add(1, "mangoesteen");
+        System.out.println("Initial ArrayList " + al);
+
+        //Changing elements in list
+        al.set(1, "For");
+        System.out.println("Updated ArrayList " + al);
     }
 }

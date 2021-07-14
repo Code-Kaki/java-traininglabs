@@ -17,24 +17,36 @@
  */
 
 package global.skymind.training.intermediate.collections;
+//Java program to demonstrate the working of ArrayList in Java
+
+import java.io.*;
 import java.util.*;
 
-public class Ex8_ChangeInList {
-    // Java program to change elements
-// in a List
+public class Ex7_ArrayList {
 
-    public static void main(String args[])
+    public static void main(String[] args)
     {
-        List<String> al = new ArrayList<>();
+        //Size of the ArrayList
+        int n = 5;
 
-        al.add("Apple");
-        al.add("Orange");
-        al.add(1, "Orange");
+        //Declaring the ArrayList with initial size n
+        /* enter your code here
 
-        System.out.println("Initial ArrayList " + al);
+        //Appending new elements at the end of the list
+        for (int i = 1; i <= n; i++)
+            arrli.add(i);
 
-        al.set(1, "For");
+        //Printing elements
+        System.out.println(arrli);
 
-        System.out.println("Updated ArrayList " + al);
+        //Remove element at index 3
+        arrli.remove(4);
+
+        //Displaying the ArrayList after deletion
+        System.out.println(arrli);
+
+        //Printing elements one by one
+        for (int i = 0; i < arrli.size(); i++)
+            System.out.print(arrli.get(i) + " ");*/
     }
 }

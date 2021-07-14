@@ -28,24 +28,30 @@ To create an instance of generic class:
 A Simple Java program to show working of user defined Generic classes*/
 
 // We use < > to specify Parameter type
+
 public class Ex1_GenericClass<T> {
 
-    // An object of type T is declared
+    //An object of type T is declared
     T obj;
-    Ex1_GenericClass(T obj) {  this.obj = obj;  }  // constructor
-    public T getObject()  { return this.obj; }
+    Ex1_GenericClass(T obj) {   // constructor
+        this.obj = obj;
+    }
+
+    public T getObject()  {
+        return this.obj;
+    }
 }
 
-// Driver class to test above
+//Driver class to test above
 class Main
 {
     public static void main (String[] args)
     {
-        // instance of Integer type
+        //instance of Integer type
         Ex1_GenericClass <Integer> iObj = new Ex1_GenericClass<Integer>(1);
         System.out.println(iObj.getObject());
 
-        // instance of String type
+        //instance of String type
         Ex1_GenericClass <String> sObj =
                 new Ex1_GenericClass<String>("Generic Class");
         System.out.println(sObj.getObject());

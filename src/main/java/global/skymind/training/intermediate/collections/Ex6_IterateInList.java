@@ -19,18 +19,21 @@
 package global.skymind.training.intermediate.collections;
 import java.util.*;
 
-public class Ex7_AddInList {
-    // Java program to add elements
-// to a List
-
+public class Ex6_IterateInList {
     public static void main(String args[])
     {
+        /*enter your code here*/
+        //Creating list
         List<String> al = new ArrayList<>();
 
-        al.add("Apple");
-        al.add("Orange");
+        //Adding object in list
+        al.add("rambutan");
+        al.add("mangoesteen");
         al.add(1, "For");
 
-        System.out.println(al);
+        //Using the Get method and the for loop
+
+        //Using the for each loop
+
     }
 }

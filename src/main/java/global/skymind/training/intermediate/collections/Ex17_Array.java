@@ -18,60 +18,61 @@
 package global.skymind.training.intermediate.collections;
 
 public class Ex17_Array {
-    private int[] theArray = new int[50]; // Creates an array with 50 indexes
-    private int arraySize = 10; // Elements in theArray
+    //Creates an array with 50 indexes
+    /*enter your code here*/
 
-    // Fills the Array with random values
+    //Elements in theArray
+    private int arraySize = 10;
+
+    //Fills the Array with random values
     public void generateRandomArray(){
         for(int i = 0; i < arraySize; i++){
-            // Random number 10 through 19
-            theArray[i] = (int)(Math.random()*10)+10;
+            //Random number 10 through 19
+            /*enter your code here*/
+
         }
     }
 
     public int[] getTheArray(){
-        return theArray;
+        return null;
     }
 
     public int getArraySize(){
         return arraySize;
     }
 
-    // Prints the Array on the screen in a grid
+    //Prints the Array on the screen in a grid
     public void printArray(){
         System.out.println("----------");
         for(int i = 0; i < arraySize; i++){
             System.out.print("| " + i + " | ");
-            System.out.println(theArray[i] + " |");
+            /*enter your code here*/
             System.out.println("----------");
         }
     }
 
-    // Gets value at provided index
+    //Gets value at provided index
     public int getValueAtIndex(int index){
-        if(index < arraySize) return theArray[index];
+        /*enter your code here*/
         return 0;
     }
 
-    // Returns true or false if a value is in the Array
+    //Returns true or false if a value is in the Array
     public boolean doesArrayContainThisValue(int searchValue){
         boolean valueInArray = false;
         for(int i = 0; i < arraySize; i++){
-            if(theArray[i] == searchValue){
+            /*enter your code here*/
                 valueInArray = true;
-            }
         }
         return valueInArray;
     }
 
-    // Delete Array row for the index and move elements up
+    //Delete Array row for the index and move elements up
     public void deleteIndex(int index){
         if(index < arraySize){
-            // Overwrite the value for the supplied index
-            // and then keep overwriting every index that follows
-            // until you get to the last index in the array
+            //Overwrite the value for the supplied index and then keep overwriting every index that follows until you get to the last index in the array
             for(int i = index; i < (arraySize - 1); i++){
-                theArray[i] = theArray[i+1];
+                /*enter your code here*/
             }
             arraySize--;
         }
@@ -79,22 +80,19 @@ public class Ex17_Array {
 
     public void insertValue(int value){
         if(arraySize < 50){
-            theArray[arraySize] = value;
+            /*enter your code here*/
             arraySize++;
         }
     }
 
-    // Linear Search : Every index must be looked at
+    //Linear Search : Every index must be looked at
     public String linearSearchForValue(int value){
         boolean valueInArray = false;
         String indexsWithValue = "";
         System.out.print("The Value was Found in the Following Indexes: ");
         for(int i = 0; i < arraySize; i++){
-            if(theArray[i] == value) {
-                valueInArray = true;
-                System.out.print(i + " ");
-                indexsWithValue+= i + " ";
-            }
+            /*enter your code here*/
+
         }
         if(!valueInArray){
             indexsWithValue = "None";

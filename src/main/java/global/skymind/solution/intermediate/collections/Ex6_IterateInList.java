@@ -18,29 +18,27 @@
 
 package global.skymind.solution.intermediate.collections;
 import java.util.*;
+//Java program to iterate the elements in an ArrayList
 
-public class Ex9_IterateInList {
-    // Java program to iterate the elements
-// in an ArrayList
+public class Ex6_IterateInList {
     public static void main(String args[])
     {
-        List<String> al
-                = new ArrayList<>();
+        //Creating list
+        List<String> al = new ArrayList<>();
 
-        al.add("Apple");
-        al.add("Orange");
+        //Adding object in list
+        al.add("rambutan");
+        al.add("mangoesteen");
         al.add(1, "For");
 
-        // Using the Get method and the
-        // for loop
+        //Using the Get method and the for loop
         for (int i = 0; i < al.size(); i++) {
-
             System.out.print(al.get(i) + " ");
         }
 
         System.out.println();
 
-        // Using the for each loop
+        //Using the for each loop
         for (String str : al)
             System.out.print(str + " ");
     }

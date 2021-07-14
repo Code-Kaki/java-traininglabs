@@ -21,13 +21,14 @@ import java.util.*;
 
 public class Ex12_DequeArray {
     public static void main(String[] args) {
-//Creating Deque and adding elements
+        //Creating Deque and adding elements
         Deque<String> deque = new ArrayDeque<String>();
-        deque.add("Dr. Pranesh");
-        deque.add("Hidayah");
-        deque.add("Zul");
-        deque.add("Yuen");
-//Traversing elements
+        deque.add("KFC");
+        deque.add("McDonald's");
+        deque.add("Mary Brown");
+        deque.add("Texas Chicken");
+
+        //Traversing elements
         for (String str : deque) {
             System.out.println(str);
         }

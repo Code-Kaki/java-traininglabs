@@ -21,13 +21,17 @@ import java.util.*;
 
 public class Ex14_LinkedHashSet {
     public static void main(String args[]){
-        LinkedHashSet<String> set=new LinkedHashSet<String>();
-        set.add("Dr. Pranesh");
-        set.add("Hidayah");
-        set.add("Zul");
-        set.add("Hidayah");
-        set.add("Yuen");
-        Iterator<String> itr=set.iterator();
+        //Creating Set using LinkedHashSet
+        LinkedHashSet<String> set = new LinkedHashSet<String>();
+
+        //Adding object to Set
+        set.add("KFC");
+        set.add("McDonald's");
+        set.add("Mary Brown");
+        set.add("Texas Chicken");
+
+        //Traversing Set through Iterator
+        Iterator<String> itr = set.iterator();
         while(itr.hasNext()){
             System.out.println(itr.next());
         }

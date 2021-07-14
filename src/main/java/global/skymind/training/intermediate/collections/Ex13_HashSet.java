@@ -21,27 +21,12 @@ import java.util.*;
 
 public class Ex13_HashSet {
     public static void main(String args[]){
-        LinkedHashSet<String> set=new LinkedHashSet<String>();
-        set.add("Dr. Pranesh");
-        set.add("Hidayah");
-        set.add("Zul");
-        set.add("Hidayah");
-        set.add("Yuen");
-        Iterator<String> itr=set.iterator();
-        while(itr.hasNext()){
-            System.out.println(itr.next());
-        }
+        /*enter your code here*/
+        //Creating Set using HashSet
+
+        //Adding object to Set
+
+        //Traversing Set through Iterator
+
     }
 }
-
-//import java.util.HashSet;
-//public class DemoSet{
-//    public static void main(String[] args) {
-//        HashSet<String> setFruits= new HashSet<String>();
-//        setFruits.add("rambutan");
-//        setFruits.add("jackfruit");
-//        setFruits.add("mangoesteen");
-//        setFruits.add("jackfruit");
-//        System.out.println(setFruits);
-//    }
-//}

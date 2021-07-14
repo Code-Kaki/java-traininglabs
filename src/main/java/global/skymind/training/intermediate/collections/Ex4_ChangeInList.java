@@ -16,21 +16,19 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package global.skymind.solution.intermediate.collections;
+package global.skymind.training.intermediate.collections;
 import java.util.*;
-public class  Ex6_Stack {
-    public static void main(String args[]){
-        Stack<String> stack = new Stack<String>();//Creating stack
-        stack.push("Dr. Pranesh");//Adding object in stack
-        stack.push("Hidayah");
-        stack.push("Zul");
-        stack.push("Hidayah");
-        stack.push("Yuen");
-        stack.pop();
-        //Traversing list through Iterator
-        Iterator<String> itr=stack.iterator();
-        while(itr.hasNext()){
-            System.out.println(itr.next());
-        }
+//Java program to change elements in a List
+
+public class Ex4_ChangeInList {
+    public static void main(String args[])
+    {
+        /*enter your code here*/
+        //Creating list
+
+        //Adding object in list
+
+        //Changing elements in list
+
     }
 }

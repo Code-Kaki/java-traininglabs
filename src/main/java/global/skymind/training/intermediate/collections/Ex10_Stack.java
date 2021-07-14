@@ -16,31 +16,19 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package global.skymind.solution.intermediate.collections;
+package global.skymind.training.intermediate.collections;
 import java.util.*;
+public class Ex10_Stack {
+    public static void main(String args[]){
+        /*enter your code here*/
+        //Creating Stack
 
-public class Ex10_DeleteInList {
-    // Java program to remove elements
-    // in a List
-    public static void main(String args[])
-    {
-        List<String> al = new ArrayList<>();
+        //Adding object in Stack
 
-        al.add("Apple");
-        al.add("Orange");
-        al.add(1, "For");
-
-        System.out.println(
-                "Initial ArrayList " + al);
-
-        al.remove(1);
-
-        System.out.println(
-                "After the Index Removal " + al);
-
-        al.remove("Orange");
-
-        System.out.println(
-                "After the Object Removal " + al);
+        //Traversing Stack through Iterator
+        /*Iterator<String> itr = stack.iterator();
+        while(itr.hasNext()){
+            System.out.println(itr.next());
+        }*/
     }
 }

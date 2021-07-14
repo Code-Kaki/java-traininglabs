@@ -18,17 +18,33 @@
 
 package global.skymind.training.intermediate.collections;
 import java.util.*;
+//Simple program to show how Vector works
 
-public class Ex11_QueuePriority {
-    public static void main(String args[]){
+public class Ex9_Vector {
+    public static void main(String args[]) {
         /*enter your code here*/
-        //Creating Queue
+        //Creating Vector
 
-        //Adding object to Queue
+        //Adding object in Vector
 
-        //Traversing Queue through Iterator
+        //Traversing Vector through Iterator
 
-        //Removing object in Queue
 
+        //Alternative to traverse through the Vector
+        //Traverse using for loop
+        /*for (intindex = 0; index < fruits.size(); index++) {
+            System.out.println(fruits.get(index));
+        }
+
+        //Traverse using simplified loop
+        for (String fruit : fruits) {
+            System.out.println(fruit);
+        }
+
+        //Traverse using enumeration
+        Enumeration<String> enumFruit = fruits.elements();
+        while (enumFruit.hasMoreElements()) {
+            System.out.println(enumFruit.next());
+        }*/
     }
 }

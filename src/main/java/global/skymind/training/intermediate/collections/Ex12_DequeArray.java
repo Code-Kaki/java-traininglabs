@@ -21,15 +21,10 @@ import java.util.*;
 
 public class Ex12_DequeArray {
     public static void main(String[] args) {
-//Creating Deque and adding elements
-        Deque<String> deque = new ArrayDeque<String>();
-        deque.add("Dr. Pranesh");
-        deque.add("Hidayah");
-        deque.add("Zul");
-        deque.add("Yuen");
-//Traversing elements
-        for (String str : deque) {
-            System.out.println(str);
-        }
+        /*enter your code here*/
+        //Creating Deque and adding elements
+
+        //Traversing elements
+
     }
 }

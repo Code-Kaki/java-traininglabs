@@ -21,15 +21,12 @@ import java.util.*;
 
 public class Ex14_LinkedHashSet {
     public static void main(String args[]){
-        LinkedHashSet<String> set=new LinkedHashSet<String>();
-        set.add("Dr. Pranesh");
-        set.add("Hidayah");
-        set.add("Zul");
-        set.add("Hidayah");
-        set.add("Yuen");
-        Iterator<String> itr=set.iterator();
-        while(itr.hasNext()){
-            System.out.println(itr.next());
-        }
+        /*enter your code here*/
+        //Creating Set using LinkedHashSet
+
+        //Adding object to Set
+
+        //Traversing Set through Iterator
+
     }
 }

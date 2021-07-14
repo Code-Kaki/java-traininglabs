@@ -21,16 +21,10 @@ import java.util.*;
 
 public class Ex15_TreeSet {
     public static void main(String args[]){
-//Creating and adding elements
-        TreeSet<String> set=new TreeSet<String>();
-        set.add("Dr. Pranesh");
-        set.add("Hidayah");
-        set.add("Zul");
-        set.add("Yuen");
-//traversing elements
-        Iterator<String> itr=set.iterator();
-        while(itr.hasNext()){
-            System.out.println(itr.next());
-        }
+        /*enter your code here*/
+        //Creating Set using TreeSet
+
+        //Traversing elements
+
     }
 }

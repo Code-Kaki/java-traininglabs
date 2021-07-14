@@ -18,23 +18,22 @@
 
 package global.skymind.solution.intermediate.collections;
 import java.util.*;
+public class Ex10_Stack {
+    public static void main(String args[]){
+        //Creating Stack
+        Stack<String> stack = new Stack<String>();
 
-public class Ex8_ChangeInList {
-    // Java program to change elements
-// in a List
+        //Adding object in Stack
+        stack.push("rambutan");
+        stack.push("mangoesteen");
+        stack.push("jackfruit");
+        stack.push("mango");
+        stack.pop();
 
-    public static void main(String args[])
-    {
-        List<String> al = new ArrayList<>();
-
-        al.add("Apple");
-        al.add("Orange");
-        al.add(1, "Orange");
-
-        System.out.println("Initial ArrayList " + al);
-
-        al.set(1, "For");
-
-        System.out.println("Updated ArrayList " + al);
+        //Traversing Stack through Iterator
+        Iterator<String> itr = stack.iterator();
+        while(itr.hasNext()){
+            System.out.println(itr.next());
+        }
     }
 }

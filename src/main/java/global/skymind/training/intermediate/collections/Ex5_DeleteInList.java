@@ -16,21 +16,27 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package global.skymind.solution.intermediate.collections;
+package global.skymind.training.intermediate.collections;
 import java.util.*;
+// Java program to remove elements in a List
 
-public class Ex7_AddInList {
-    // Java program to add elements
-// to a List
-
+public class Ex5_DeleteInList {
     public static void main(String args[])
     {
+        /*enter your code here*/
+        //Creating list
         List<String> al = new ArrayList<>();
 
-        al.add("Apple");
-        al.add("Orange");
+        //Adding object in list
+        al.add("rambutan");
+        al.add("mangoesteen");
         al.add(1, "For");
 
-        System.out.println(al);
+        System.out.println("Initial ArrayList " + al);
+
+        //Removing index in list
+
+        //Removing object in list
+
     }
 }

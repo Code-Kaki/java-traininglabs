@@ -17,30 +17,27 @@
  */
 
 package global.skymind.solution.intermediate.collections;
-/*We can also write generic functions that can be called with different types of arguments based on the type of arguments passed to generic method, the compiler handles each method.
-
-
-// A Simple Java program to show working of user defined
-// Generic functions*/
+//We can also write generic functions that can be called with different types of arguments based on the type of arguments passed to generic method, the compiler handles each method.
+//A Simple Java program to show working of user defined Generic functions
 
 public class Ex2_GenericFunction {
 
-    // A Generic method example
+    //A Generic method example
     static <T> void genericDisplay (T element)
     {
         System.out.println(element.getClass().getName() + " = " + element);
     }
 
-    // Driver method
+    //Driver method
     public static void main(String[] args)
     {
-        // Calling generic method with Integer argument
+        //Calling generic method with Integer argument
         genericDisplay(2);
 
-        // Calling generic method with String argument
+        //Calling generic method with String argument
         genericDisplay("Generic Function");
 
-        // Calling generic method with double argument
+        //Calling generic method with double argument
         genericDisplay(2.0);
     }
 }
