@@ -2,7 +2,7 @@ package global.skymind.training.intermediate.exceptions;
 
 import java.io.FileReader;
 
-public class Exe_1 {
+public class Ex_1 {
     public static void main(String[] args) {
         /*
         You have learned how to handle various kind of Java Exception and in this exercise,

@@ -1,6 +1,6 @@
 package global.skymind.training.intermediate.exceptions;
 
-public class Exe_3 {
+public class Ex_3 {
     public static void main(String[] args) {
         System.out.println("\n=====================================");
         System.out.println("||             Question 3          ||");
